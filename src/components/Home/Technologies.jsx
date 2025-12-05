@@ -1,7 +1,7 @@
 "use client";
+
 import Image from "next/image";
 
-function Technologies(){
 const technologies = [
   { src: "/Home/technologies/AndroidLogo.svg", alt: "Android" },
   { src: "/Home/technologies/SquarespaceLogotype.svg", alt: "Squarespace" },
@@ -21,8 +21,8 @@ const technologies = [
   { src: "/Home/technologies/FramerLogotype.svg", alt: "Framer" },
 ];
 
-
-   const items = [...technologies, ...technologies];
+function Technologies() {
+  const items = [...technologies, ...technologies];
 
   return (
     <div className="tech-wrapper">
@@ -32,12 +32,15 @@ const technologies = [
         <div className="tech-track">
           {items.map((tech, index) => (
             <div className="tech-item" key={index}>
-              <Image
-                src={tech.src}
-                alt={tech.alt}
-                width={80}
-                height={80}
-              />
+              <div className="logo-box">
+                <Image
+                  src={tech.src}
+                  alt={tech.alt}
+                  width={70}
+                  height={70}
+                  className="logo-img"
+                />
+              </div>
             </div>
           ))}
         </div>
@@ -72,6 +75,22 @@ const technologies = [
           align-items: center;
           justify-content: center;
           padding: 0.5rem 2rem;
+        }
+
+        /* Every logo gets EXACT same visual box */
+        .logo-box {
+          width: 96px;
+          height: 48px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .logo-img {
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: contain;
+          display: block;
         }
 
         @keyframes tech-marquee {

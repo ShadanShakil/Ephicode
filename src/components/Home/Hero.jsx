@@ -39,7 +39,7 @@ function Hero() {
       </div>
 
       {/* Services pills */}
-      <div className="w-full max-w-3xl mx-auto text-white px-2 pt-4">
+      <div className="w-full max-w-3xl mx-auto text-white px-2 py-5 my-10 pt-4">
         <div className="flex flex-wrap justify-center gap-4">
           <p className="inline-flex items-center gap-2 px-4 py-2 bg-[#181818] rounded-full text-sm">
             <Image
