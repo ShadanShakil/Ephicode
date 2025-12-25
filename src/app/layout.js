@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import "./globals.css";
 import localFont from "next/font/local";
 import DarkVeil from "@/components/DarkVeil";
+import Footer from "@/components/Footer";
 
 const qurova = localFont({
   src: [
@@ -53,6 +54,7 @@ export default function RootLayout({ children }) {
         <div className="relative z-10 min-h-screen">
           <Navigation />
           {children}
+          <Footer/>
         </div>
       </body>
     </html>

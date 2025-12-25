@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import LogoLoop from "../LogoLoop";
+import LogoLoop from "./LogoLoop";
 
 const technologies = [
   { src: "/Home/technologies/AndroidLogo.svg", alt: "Android", href: "https://www.android.com" },
