@@ -40,7 +40,7 @@ const logoItems = technologies.map((tech) => ({
 
 function Technologies() {
   return (
-    <section className="w-full px-4 py-10 text-white">
+    <section className="w-full px-4 text-white">
       <h2 className="mb-4 text-center text-xl font-semibold">Technologies</h2>
 
       <div className="relative h-20 w-full overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl backdrop-saturate-150">

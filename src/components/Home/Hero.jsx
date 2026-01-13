@@ -29,12 +29,7 @@ function Hero() {
         </h1>
       </div>
 
-      {/* CTA button */}
-      <div className="mx-auto w-fit mt-2">
-        <Button className="bg-[#01FFC3] text-black hover:bg-[#01FFC3] hover:shadow-[0_0_20px_#10B981] hover:scale-105 transition-all duration-300">
-          Get Started
-        </Button>
-      </div>
+
 
       {/* Description */}
       <div className="mx-auto w-full max-w-2xl py-5">
@@ -43,6 +38,13 @@ function Hero() {
           enterprise systems powering businesses across the US, Europe, and the
           Middle East.
         </p>
+      </div>
+
+      {/* CTA button */}
+      <div className="mx-auto w-fit mt-2">
+        <Button className="bg-[#01FFC3] text-black hover:bg-[#01FFC3] hover:shadow-[0_0_20px_#10B981] hover:scale-105 transition-all duration-300">
+          Get Started
+        </Button>
       </div>
 
       {/* Services pills */}

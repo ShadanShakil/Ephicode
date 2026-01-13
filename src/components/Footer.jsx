@@ -36,7 +36,7 @@ export default function Footer() {
               {/* logo placeholder */}
               <div className="relative h-10 w-10">
                 <Image
-                  src="/logo.png"
+                  src="/logo.svg"
                   alt="Ephicode logo"
                   fill
                   className="object-contain"

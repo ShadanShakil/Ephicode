@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Hero/>
       <ServicesSection/>
-      <Process/>
+      {/* <Process/> */}
       <PricingSection/>
       <TestimonialsSection/>
       <FaqSection/>

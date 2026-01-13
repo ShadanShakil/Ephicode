@@ -32,7 +32,7 @@ return (
         <div className="flex items-center justify-between">
           {/* Left: Logo */}
           <div className="flex items-center">
-            <Image src="/logo.png" alt="Logo" height={40} width={40} />
+            <Image src="/logo.svg" alt="Logo" height={40} width={40} />
             <h1 className="text-white text-xl px-1">Ehpicode</h1>
           </div>
 

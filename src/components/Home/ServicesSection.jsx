@@ -44,7 +44,7 @@ const services = [
 
 function ServicesSection() {
   return (
-    <section className="bg-transparent py-20 px-4">
+    <section className="bg-transparent py-10 px-4">
       <div className="max-w-6xl mx-auto">
         {/* heading */}
         <div className="text-center mb-12">
@@ -71,7 +71,7 @@ function ServicesSection() {
                 shadow-[0_0_40px_rgba(0,0,0,0.35)]
                 backdrop-blur-xl backdrop-saturate-150
                 transition-transform transition-shadow duration-300
-                hover:-translate-y-1 hover:shadow-[0_0_50px_rgba(16,185,129,0.4)]
+                hover:-translate-y-1 hover:shadow-[0_0_60px_rgba(16,185,129,0.55)]
               "
             >
               <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-black/40 border border-white/20">
